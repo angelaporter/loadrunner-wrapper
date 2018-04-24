@@ -5,7 +5,8 @@ import junit.framework.TestCase;
 
 public class LoadrunnerWrapperTest extends TestCase {
 	LoadrunnerWrapper l;
-	protected void setUp() throws Exception {		
+	protected void setUp() throws Exception {	
+	
 		super.setUp();
 		l = new LoadrunnerWrapper();
 	}
